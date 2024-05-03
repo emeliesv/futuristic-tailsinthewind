@@ -4,6 +4,12 @@
 
 @layer base {
     body {
-        @apply bg-violet-200;
+        @apply bg-primary font-sans text-primary ;
+    }
+}
+
+@layer components {
+    .header-container {
+        @apply grid grid-cols-2 mx-3 my-2 lg:mx-8 lg:my-6 items-center
     }
 }
